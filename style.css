@@ -1,0 +1,151 @@
+body {
+    margin:0px;
+    font-family: 'Open Sans', sans-serif;
+    height: 98vh;  
+    background: url(bckg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.header {
+    height: 100px;
+    background-color: #002699;
+    width: 100%;
+    text-align: right;
+    color: white;
+    font-size: 40px;
+    padding-right: 35px;
+    position: relative;
+    right: 30px;
+    line-height: -35px;
+    vertical-align: center;
+    
+}
+
+
+.title {
+    padding-top: 25px;
+}
+
+
+.commands {
+    background-color: #803300;
+    width: 90px;
+    height: 135%;
+    z-index: 4;
+    position: relative;
+    bottom:130px;
+}
+
+.btn {
+position: relative;
+top: 250px;
+color: white;
+line-height: 20px;
+padding-left: 10px;
+margin-bottom: -5px;
+}
+
+button {
+    z-index: 20;
+}
+input{
+    z-index: 20;
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+    position: relative;
+    right: 300px;
+    top: -600px;
+    border-radius: 50px;
+
+}
+
+.butt{
+    position: relative;
+    right: 300px;
+    top: -600px;
+    width: 100px;
+    height:35px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.inputf {
+    display: none;
+}
+
+.hideText {
+    font-size: 50px;
+    
+}
+
+
+
+.one {
+   
+    position: relative;
+    left: 25%;
+    bottom: 700px;
+}
+.two {
+   
+    position: relative;
+    left: 25%;
+    bottom: 700px;
+}
+.three {
+    
+    position: relative;
+    left: 25%;
+    bottom: 700px;
+}
+.four {
+    position: relative;
+    left: 25%;
+    bottom: 700px;
+}
+.five {
+    
+    position: relative;
+    left: 25%;
+    bottom: 700px;
+}
+.six {
+    
+    position: relative;
+    left: 25%;
+    bottom: 700px;
+}
+
+#display {
+    position: relative;
+    bottom: 1000px;
+    left: 200px;
+    font-size: 28px;
+    margin-right: 500px;
+    grid-template-columns: repeat(100px 100px);
+    grid-auto-rows: repeat(1,1fr);
+    Color: white;
+    height: 100%;
+    -webkit-column-count: 2; 
+    -moz-column-count: 2; 
+    column-count: 2;
+    column-width: 10px;
+    z-index: 2;
+
+
+}
+
